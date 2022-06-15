@@ -1,5 +1,5 @@
 const formatByPackage = (value: string): string => {
-  return `${value} formatted by package utils`;
+  return `${value} formatted by package`;
 };
 
 export { formatByPackage };
