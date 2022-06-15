@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "lerna-example",
   "devDependencies": {
     "lerna": "^5.1.2"
   }
