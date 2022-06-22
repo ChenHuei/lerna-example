@@ -1,5 +1,5 @@
-import Button from "./components/Button";
-import Header from "./components/Header";
-import Page from "./components/Page";
+import Button from "./src/components/Button";
+import Header from "./src/components/Header";
+import Page from "./src/components/Page";
 
 export { Button, Header, Page };
