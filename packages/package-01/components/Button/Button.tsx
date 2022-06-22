@@ -1,11 +1,11 @@
 import React, { PropsWithChildren } from "react";
 
-type ButtonProps = {
+interface ButtonProps {
   textColor: string;
   onClick: () => void;
-} & PropsWithChildren;
+}
 
-const Button = (props: ButtonProps) => {
+const Button = (props: PropsWithChildren<ButtonProps>) => {
   const { textColor, children, onClick } = props;
 
   return (
